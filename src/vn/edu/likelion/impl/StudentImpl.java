@@ -149,8 +149,6 @@ public class StudentImpl implements StudentService {
         return nameCourse;
     }
 
-
-    // set status course when course is full student or Does the course have enough students?
     private boolean checkStudentInCourse(String name) {
         Course course = courseImpl.getCourseByName(name);
 

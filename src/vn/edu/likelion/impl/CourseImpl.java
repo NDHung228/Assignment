@@ -184,10 +184,6 @@ public class CourseImpl implements CourseService {
         return Integer.parseInt(sc.next());
     }
 
-    private boolean addStudentToCourse(String nameCourse) {
-        return true;
-    }
-
     private boolean checkDuplicateName(String nameCourse) {
         for (Course course : courseList) {
             if (course.getName().equals(nameCourse)) {
