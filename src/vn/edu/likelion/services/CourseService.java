@@ -12,4 +12,13 @@ public interface CourseService {
     public void deleteCourse();
     public void updateCourse();
 
+    default int demo() {
+        System.out.println("This is method default");
+        return 1;
+    }
+
+    static void demoStatic() {
+        System.out.println("This is method static");
+    }
+
 }

@@ -10,6 +10,7 @@ public class Student {
     private String name;
     private String nameCourse;
 
+
     public String getNameCourse() {
         return nameCourse;
     }

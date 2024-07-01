@@ -9,4 +9,9 @@ public interface StudentService {
     public void deleteStudent();
     public void printGetAllStudent();
     public void printStudentsAndCourses() ;
+
+    default int demo() {
+        System.out.println("This is method default");
+        return 0;
+    }
 }

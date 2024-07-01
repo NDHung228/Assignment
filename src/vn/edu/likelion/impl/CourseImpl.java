@@ -15,6 +15,13 @@ public class CourseImpl implements CourseService {
 
     public static List<Course> courseList = new ArrayList<Course>();
 
+//    @Override
+//    public void demo() {
+//        CourseService.super.demo();
+//        System.out.println("override demo method default");
+//    }
+
+
 
     @Override
     public void addCourse() {
